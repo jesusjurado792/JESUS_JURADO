@@ -23,11 +23,24 @@ body{
     text-decoration: none;
     font-size: 100%;
 }
-.topnavdos {
+.container2 {
     overflow: hidden;
     background-color: #333;}
+
+.container2 a {
+        float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 30px 28px;
+            text-decoration: none;
+            font-size: 16;
+        }    
+        .container2 a:hover {
+            background-color: rgb(9, 183, 125);
+            color: rgb(0, 0, 0);
+        }        
     
-.topnavdos a {
+.container a {
 float: left;
     color: #f2f2f2;
     text-align: center;
@@ -45,23 +58,13 @@ float: left;
 
 
 .topnav a:hover {
-    background-color: rgb(231, 137, 29);
+    background-color: rgb(9, 183, 125);
     color: rgb(0, 0, 0);
 }
 .topnav a.active {
     background-color: #b81207;
 }
 
-
-.title {
-    max-width: 100%;
-    background-color: #0bc7d4;
-    text-align: center;
-    padding: 8px 12px;
-    border: 0px solid rgb(221, 138, 82);
-    margin: 0 auto;
-    font-size: 100%;
-}
 
 .title:hover {
     background-color: rgb(216, 177, 119);
@@ -140,16 +143,19 @@ float: left;
 }
 .contact h4{
     color: rgb(255, 0, 0);
+    background-color: black;
     font-family: cursive;
     font-size: 15;
 }
 .menupl img{
+    border: 5px solid rgba(9, 183, 125, 0.554);
     width: 15%;
     height:40%;
     float: left;
     margin-left:5%;
 }
 .menupl2 img{
+    border: 5px solid rgba(9, 183, 125, 0.554);
     width: 15%;
     height:40%;
     float: left;
@@ -168,4 +174,30 @@ float: left;
     color: rgb(243, 243, 243);
     font-family: cursive;
     font-size: 20;
-}   
+}  
+
+.taregister{
+    width:400px ; 
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(61, 57, 53, 0.692);
+    color: rgb(252, 252, 252);
+    font-family: cursive;
+    font-size: 16px;
+    text-align: center;
+    
+
+}  
+.talogin{
+    width:400px ; 
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(61, 57, 53, 0.692);
+    color: rgb(252, 252, 252);
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+
+}  
